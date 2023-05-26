@@ -17,7 +17,11 @@ helm repo add tgs-repo https://lunyi.github.io/tgs-helm-repo/
 helm search repo tgs-repo -l
 
 # 更新版本
-
 udpate ./Charts/app01/Chart.yaml  version 欄位
 helm package Charts/app01 //重新產生 app01-0.2.0.tgz
 helm repo index .
+git push
+
+# 確認新版本
+helm repo update
+helm search repo tgs-repo -l
