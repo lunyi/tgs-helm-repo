@@ -10,6 +10,7 @@ helm package Charts/app01 # 產生 app01-0.1.0.tgz
 mv app01-0.1.0.tgz ./Packages/
 export helm_token="ghp_SSDAFfdsfs324rFDGg"
 helm repo index .
+git push
 
 # 設定 url
 Github > Settings > Pages
