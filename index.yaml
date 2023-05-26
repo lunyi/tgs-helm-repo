@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  app01:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-26T06:37:40.745233305Z"
+    description: A Helm chart for Kubernetes
+    digest: dba3dea32108b461ca5b055ba15ab082b4c348eb7d3440edd073cab15507454b
+    name: app01
+    type: application
+    urls:
+    - Packages/app01-0.1.0.tgz
+    version: 0.1.0
+  operator-api:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-26T06:37:40.745740301Z"
+    description: A Helm chart for Kubernetes
+    digest: 5a31994ad7566c70cd68184e96607697c985f4f69e9cfd66e35fad19f4aca0b7
+    name: operator-api
+    type: application
+    urls:
+    - Packages/operator-api-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-05-26T06:37:40.744307997Z"
